@@ -1,6 +1,6 @@
 const nodemailer=require('nodemailer')
 const Mailgen=require('mailgen')
-const { response } = require('./app')
+
 
 module.exports= Getbill=(req,res)=>{
     let config={
