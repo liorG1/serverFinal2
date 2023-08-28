@@ -1,7 +1,7 @@
 let {Products,Users,Orders}=require('../database/models')
 const jwt=require('jsonwebtoken')
 const { use } = require('../routes/products_router')
-let SendEmail=require('../responses/nodemailer')
+
 let checkAllProperties=(req)=>{
     if(req.body.img==undefined||req.body.catagory==undefined||req.body.price==undefined||req.body.description==undefined||req.body.brand==undefined||req.body.name==undefined){
         return false
@@ -200,7 +200,7 @@ module.exports={
             const newOrder=new Orders({user_detalis,products,totalPrice,date})
 
             await newOrder.save()
-            await SendEmail(req,res,newOrder)
+           
             
             user.products_marked=[]
             await user.save()
