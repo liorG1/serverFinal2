@@ -1,6 +1,6 @@
 let {Products,Users,Orders}=require('../database/models')
 const jwt=require('jsonwebtoken')
-const { use } = require('../routes/products_router')
+//const { use } = require('../routes/products_router')
 
 let checkAllProperties=(req)=>{
     if(req.body.img==undefined||req.body.catagory==undefined||req.body.price==undefined||req.body.description==undefined||req.body.brand==undefined||req.body.name==undefined){
