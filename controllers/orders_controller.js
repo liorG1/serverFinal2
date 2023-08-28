@@ -1,4 +1,4 @@
-const { JSON } = require("mysql/lib/protocol/constants/types");
+//const { JSON } = require("mysql/lib/protocol/constants/types");
 const { Orders, Users,Products } = require("../database/models");
 const jwt=require('jsonwebtoken');
 /* const SendEmail = require("../responses/nodemailer"); */
