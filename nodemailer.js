@@ -6,8 +6,8 @@ module.exports= Getbill=(req,res)=>{
     let config={
         service:'gmail',
         auth:{
-            user:'hermainloren@gmail.com',
-            pass:'gokfivjmvrloljts'
+            user:'styleShoesByLior@gmail.com',
+            pass:'kfcpyfehbeqqumlf'
         }
     }
 

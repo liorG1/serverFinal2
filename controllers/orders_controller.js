@@ -146,8 +146,8 @@ module.exports={
             let config={
                 service:'gmail',
                 auth:{
-                    user:'hermainloren@gmail.com',
-                    pass:'nkeqaeoihtciyoue'
+                    user:'styleShoesByLior@gmail.com',
+                    pass:'kfcpyfehbeqqumlf'
                 }
             }
         
@@ -155,8 +155,8 @@ module.exports={
             let MailGenerator=new Mailgen({
                 theme:'default',
                 product:{
-                    name:`lior's store`,
-                    link:'https://mailgen.js',
+                    name:`Style Shoes`,
+                    link:'https://client-3933.onrender.com/',
                 }
             })
         
@@ -176,7 +176,7 @@ module.exports={
             
         
             let message={
-                from:'liors store',
+                from:'Style Shoes',
                 to:userDetalis.email,
                 html:mail
             }
