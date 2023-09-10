@@ -34,8 +34,8 @@ module.exports={
     },
     add:async(req,res)=>{
         try {
-            console.log('req');
-            console.log(req.headers);
+            /* console.log('req');
+            console.log(req.headers); */
             if (!checkAllProperties(req)){
                 throw new Error('require fields missing')
             }
