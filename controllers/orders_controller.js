@@ -177,7 +177,7 @@ module.exports={
         
             let message={
                 from:'Style Shoes',
-                to:userDetalis.email,
+                to:userDetalis.email, 
                 html:mail
             }
         
