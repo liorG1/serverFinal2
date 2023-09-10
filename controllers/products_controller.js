@@ -36,6 +36,7 @@ module.exports={
         try {
             /* console.log('req');
             console.log(req.headers); */
+            console.log('try adding product');
             if (!checkAllProperties(req)){
                 throw new Error('require fields missing')
             }
