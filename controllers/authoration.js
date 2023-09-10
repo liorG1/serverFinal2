@@ -6,7 +6,7 @@ const checkPermissionEditor=(req,res,nxt)=>{
     console.log(req.headers['tokens'].split('=')[1]);
     
     const token=  jwt.decode(req.headers['tokens'].split('=')[1])
-    
+    console.log(token);
     if (token.permission!=2){
         res.status(401).send('unathoraized user')
     }
